@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DefaultController {
 
-    @GetMapping({"/"})
+    @GetMapping("/")
     public String home() throws Exception {
         try {
             throw new UnsupportedOperationException("You shouldn't call this!");
